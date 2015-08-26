@@ -1,22 +1,9 @@
 
+/* Type Selectors ----------- */
+
 body {
 	color: #878787;
 	margin: 0;
-}
-
-.main-header {
-	background-color: orange;
-}
-
-.title {
-	color: white;
-	font-size: 26px;
-}
-
-ol li {
-	background-color: tomato;
-	color: white;
-	margin-bottom: 5px;
 }
 
 h1 {
@@ -33,6 +20,25 @@ h3 {
 	color: #48525c;
 }
 
+/*ID Selectors --------------*/
+
+#main-footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: solid 10px orange;
+}
+
+/*Class Selectors -----------------*/
+
+.main-header {
+	background-color: orange;
+}
+
+.title {
+	color: white;
+	font-size: 26px;
+}
+
 .primary-content {
 	text-align: center;
 }
@@ -41,11 +47,7 @@ h3 {
 	border-top: 2px solid lightgrey;
 }
 
-#main-footer {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	border-bottom: solid 10px orange;
-}
+/*Pseudo-classes ---------------*/
 
 a:link {
 	color: orange;
@@ -63,7 +65,3 @@ a:active {
 	color: lightcoral;
 }
 
-:focus {
-	color: white;
-	background-color: orange;
-}
