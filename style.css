@@ -77,7 +77,7 @@ a:active {
 	background-color: #ffa949;
 	padding-top: 170px;
 	height: 850px;
-	background-image: url('');
+	background-image: linear-gradient(#ffa949, #ffb919 80%);
 }
 
 .title {
